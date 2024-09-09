@@ -1,0 +1,18 @@
+.footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding: 20px 0px;
+    &__icon{
+        display: flex;
+        gap: 30px;
+        img{
+            transition: 0.3s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }    
+    }
+}

@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    padding: 0px 25px;
+    align-items: center;
+    &__list{
+        display: flex;
+        float: right;   
+        gap: 17px;
+    }
+    &__link{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        &:hover{
+            color: #FF6464;
+        }
+    }
+}

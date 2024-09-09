@@ -1,0 +1,29 @@
+.main{
+    width: 70%;
+    margin: auto;
+    margin-top: 120px;
+    &__title{
+        font-size: 44px;
+        font-weight: bold;
+        margin: 55px 0px;
+    }
+    &__cards{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    &__card{
+        padding: 20px 0px;
+        display: flex;
+        
+        gap: 25px;
+        border-bottom: 1px solid #c2c0c0;
+        span{
+            padding: 5px 15px;
+            background: #142850;
+            border-radius: 16px;
+            color: white;
+        }
+        
+    }
+}
